@@ -1,0 +1,25 @@
+.contact {
+  &-card {
+    padding: 2rem;
+    background-color: rgb(138 161 174 / 10%);
+    box-shadow: 0 0 14px rgb(120 140 153 / 70%);
+    border-radius: 5px;
+    border-top: 5px solid #0094d9;
+    border-bottom: 5px solid #0094d9;
+
+    div {
+      margin-bottom: 1rem;
+      i {
+        color: white;
+        padding: 10px;
+        line-height: 0;
+        background-color: #d2ddd985;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+}

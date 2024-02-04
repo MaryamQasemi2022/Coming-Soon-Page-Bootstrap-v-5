@@ -1,0 +1,26 @@
+.social-links {
+  a {
+    display: inline-block;
+    i {
+      color: #0d6efd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      padding: 10px;
+      border: 1px solid #0d6efd;
+      border-radius: 50%;
+      margin: 0 0.5rem;
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      &:hover {
+        background-color: #0d6efd;
+        color: white;
+        border-color: #0d6efd;
+      }
+    }
+  }
+}
